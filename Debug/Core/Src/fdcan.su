@@ -1,0 +1,4 @@
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h:1647:22:LL_RCC_SetFDCANClockSource	16	static
+../Core/Src/fdcan.c:30:6:MX_FDCAN1_Init	8	static
+../Core/Src/fdcan.c:68:6:HAL_FDCAN_MspInit	48	static
+../Core/Src/fdcan.c:103:6:HAL_FDCAN_MspDeInit	16	static

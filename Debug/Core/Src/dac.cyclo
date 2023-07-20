@@ -1,0 +1,6 @@
+stm32g4xx_ll_dac.h:1815:22:LL_DAC_SetSignedFormat	1
+stm32g4xx_ll_dac.h:1947:22:LL_DAC_DisableDMADoubleDataMode	1
+stm32g4xx_ll_dac.h:2147:22:LL_DAC_DisableTrigger	1
+stm32g4xx_ll_bus.h:451:22:LL_AHB2_GRP1_EnableClock	1
+dac.c:28:6:MX_DAC1_Init	1
+dac.c:84:6:MX_DAC3_Init	1
