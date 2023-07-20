@@ -1,0 +1,5 @@
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h:1694:22:LL_RCC_SetADCClockSource	16	static
+../Core/Src/adc.c:32:6:MX_ADC1_Init	56	static
+../Core/Src/adc.c:140:6:MX_ADC2_Init	40	static
+../Core/Src/adc.c:194:6:HAL_ADC_MspInit	64	static
+../Core/Src/adc.c:291:6:HAL_ADC_MspDeInit	16	static
