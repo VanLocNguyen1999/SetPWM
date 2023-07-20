@@ -10,7 +10,10 @@ C_SRCS :=
 S_UPPER_SRCS := 
 O_SRCS := 
 CYCLO_FILES := 
+<<<<<<< HEAD
 OBJCOPY_HEX := 
+=======
+>>>>>>> 0d6478ce6432d025df209c0aa6b5735b1b51b05b
 SIZE_OUTPUT := 
 OBJDUMP_LIST := 
 SU_FILES := 

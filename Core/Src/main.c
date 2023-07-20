@@ -27,8 +27,12 @@
 #include "usart.h"
 #include "gpio.h"
 
+<<<<<<< HEAD
 #define FREQ_PWM_HZ	20000UL //20khz
 #define DEAD_TIME_NS	400 //400ns
+=======
+
+>>>>>>> 0d6478ce6432d025df209c0aa6b5735b1b51b05b
 
 uint32_t adc_values[7];
 float throttle_adc = 0;
@@ -60,11 +64,14 @@ uint32_t duty = 0;
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+<<<<<<< HEAD
 void set_deadtime_pwm_ns(uint32_t time_ns);
 void set_duty_pwm(float duty);
 void set_freq_pwm(uint32_t freq);
 float get_duty_value();
 void update_1khz(void);
+=======
+>>>>>>> 0d6478ce6432d025df209c0aa6b5735b1b51b05b
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -118,7 +125,11 @@ int main(void)
   MX_TIM8_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
+<<<<<<< HEAD
   update_1khz();
+=======
+
+>>>>>>> 0d6478ce6432d025df209c0aa6b5735b1b51b05b
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -132,6 +143,7 @@ int main(void)
   /* USER CODE END 3 */
 }
 
+<<<<<<< HEAD
  void TIM8_UP_IRQHandler(void){
 
 	get_duty_value();
@@ -148,6 +160,8 @@ void update_1khz(void){
 
 }
 
+=======
+>>>>>>> 0d6478ce6432d025df209c0aa6b5735b1b51b05b
 float get_duty_value(){
 
 	if(HAL_ADC_Start_DMA(&hadc1, (uint32_t *)adc_values, 7)== HAL_OK){
@@ -176,8 +190,11 @@ void set_deadtime_pwm_ns(uint32_t time_ns){
 }
 
 void set_duty_pwm(float duty){
+<<<<<<< HEAD
 
 	LL_TIM_DisableAllOutputs(TIM1);
+=======
+>>>>>>> 0d6478ce6432d025df209c0aa6b5735b1b51b05b
 	TIM1->CCR1 = duty ;
 	TIM1->CCR2 = duty ;
 	TIM1->CCR3 = duty ;
